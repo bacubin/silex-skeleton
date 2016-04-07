@@ -1,0 +1,23 @@
+{
+    "name": "slimv/silex-skeleton",
+    "description": "A pre-configured skeleton for the Silex microframework",
+    "license": "MIT",
+    "type": "project",
+    "keywords": ["silex", "skeleton"],
+    "require": {
+        "php": ">=5.3.9",
+        "silex/silex": "~1.3",
+        "twig/twig": "^1.24",
+        "symfony/twig-bridge": "^2.0",
+        "silex/web-profiler": "^1.0",
+        "monolog/monolog": "^1.18"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
